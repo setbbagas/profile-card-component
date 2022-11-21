@@ -1,0 +1,46 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+/* variables */
+:root {
+    /* font family */
+    --ff-base: "Kumbh Sans", sans-serif;
+    /* font weight */
+    --fw-regular: 400;
+    --fw-bold: 700;
+    /* color */
+    --clr-primary-bg: hsl(185, 75%, 39%);
+    --clr-primary-heading: hsl(229, 23%, 23%);
+    --clr-primary-paragraph: hsl(227, 10%, 46%);
+    --clr-neutral-gray: hsl(0, 0%, 59%);
+}
+
+/* reset */
+/* box-model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* general styling */
+body {
+    /* layout */
+    min-height: 100vh;
+    /* display */
+    display: grid;
+    place-content: center;
+    /* font */
+    font-family: var(--ff-base);
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: var(--fw-regular);
+    color: var(--clr-primary-paragraph);
+    /* background */
+    background-color: var(--clr-primary-bg);
+}
