@@ -43,6 +43,10 @@ body {
     color: var(--clr-primary-paragraph);
     /* background */
     background-color: var(--clr-primary-bg);
+    background-image: url(/images/bg-pattern-top.svg),
+        url(/images/bg-pattern-bottom.svg);
+    background-position: top -400px left -300px, bottom -400px right -300px;
+    background-repeat: no-repeat;
 }
 
 .container {
